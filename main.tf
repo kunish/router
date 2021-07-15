@@ -12,6 +12,12 @@ provider "mikrotik" {
   password = var.mikrotik_password
 }
 
+resource "mikrotik_dhcp_lease" "nuc" {
+  address    = "10.10.0.2"
+  macaddress = "1C:69:7A:63:FA:FC"
+  comment    = "nuc"
+}
+
 resource "mikrotik_dhcp_lease" "pi1" {
   address    = "10.10.0.3"
   macaddress = "DC:A6:32:62:DB:37"
