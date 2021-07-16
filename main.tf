@@ -54,6 +54,12 @@ resource "mikrotik_dhcp_lease" "synology" {
   comment    = "synology"
 }
 
+resource "mikrotik_dhcp_lease" "switch" {
+  address    = "10.10.0.9"
+  macaddress = "F4:2A:7D:92:4A:91"
+  comment    = "switch"
+}
+
 resource "mikrotik_dhcp_lease" "idrac" {
   address    = "10.10.0.10"
   macaddress = "44:A8:42:25:B0:68"
