@@ -4,6 +4,13 @@ terraform {
       source = "ddelnano/mikrotik"
     }
   }
+
+  backend "remote" {
+    organization = "kunish"
+    workspaces {
+      name = "router"
+    }
+  }
 }
 
 provider "mikrotik" {
