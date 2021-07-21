@@ -19,11 +19,17 @@ provider "mikrotik" {
   password = var.mikrotik_password
 }
 
+resource "mikrotik_pool" "pool" {
+  name    = "main"
+  ranges  = "${var.dhcp_pool_range_start}-${var.dhcp_pool_range_end}"
+  comment = "main pool"
+}
+
 resource "mikrotik_dhcp_lease" "lease" {
   for_each   = var.hosts
   comment    = each.value.name
   address    = each.value.address
-  macaddress = each.value.macaddress
+  macaddress = upper(each.value.macaddress)
 }
 
 resource "mikrotik_dns_record" "record" {
