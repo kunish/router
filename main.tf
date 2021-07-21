@@ -21,7 +21,6 @@ provider "mikrotik" {
 
 resource "mikrotik_dhcp_lease" "lease" {
   for_each   = var.hosts
-  hostname   = each.value.name
   comment    = each.value.name
   address    = each.value.address
   macaddress = each.value.macaddress
