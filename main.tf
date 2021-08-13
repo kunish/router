@@ -25,15 +25,19 @@ resource "mikrotik_pool" "pool" {
   comment = "main pool"
 }
 
-resource "mikrotik_dhcp_lease" "lease" {
-  for_each   = var.hosts
+resource "mikrotik_dhcp_lease" "leases" {
+  for_each   = var.leases
   comment    = each.key
   address    = each.value.address
   macaddress = upper(each.value.macaddress)
 }
 
-resource "mikrotik_dns_record" "record" {
-  for_each = var.hosts
+resource "mikrotik_dns_record" "records" {
+  for_each = var.leases
   name     = "${each.key}.${var.domain_name}"
   address  = each.value.address
+}
+
+output "leases" {
+  value = mikrotik_dhcp_lease.leases
 }

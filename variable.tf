@@ -25,7 +25,7 @@ variable "dhcp_pool_range_end" {
   type = string
 }
 
-variable "hosts" {
+variable "leases" {
   type = map(object({
     macaddress = string
     address    = string
