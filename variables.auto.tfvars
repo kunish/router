@@ -61,7 +61,7 @@ leases = {
     macaddress = "44:a8:42:7a:de:fd"
   }
   "jarvy-workstation" = {
-    address    = "10.10.0.50"
+    address    = "10.10.0.20"
     macaddress = "00:50:56:82:3C:5E"
   }
   "cluster-proxy" = {
