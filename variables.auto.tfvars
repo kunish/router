@@ -46,11 +46,11 @@ leases = {
   }
   "gateway" = {
     address    = "10.10.0.13"
-    macaddress = "20:A7:8E:3C:78:C2"
+    macaddress = "44:A8:42:E2:7D:31"
   }
   "workstation" = {
     address    = "10.10.0.14"
-    macaddress = "00:0C:29:27:41:47"
+    macaddress = "44:A8:42:3E:D7:5B"
   }
   "vcenter" = {
     address    = "10.10.0.15"
@@ -58,46 +58,46 @@ leases = {
   }
   "speedtest" = {
     address    = "10.10.0.16"
-    macaddress = "44:a8:42:7a:de:fd"
+    macaddress = "44:A8:42:7A:DE:FD"
   }
   "jarvy-workstation" = {
     address    = "10.10.0.20"
-    macaddress = "00:50:56:82:3C:5E"
+    macaddress = "44:A8:42:53:6A:CA"
   }
   "cluster-proxy" = {
     address    = "10.10.0.30"
-    macaddress = "44:a8:42:7c:04:a1"
+    macaddress = "44:A8:42:7C:04:A1"
   }
   "cluster-controlplane-1" = {
     address    = "10.10.0.31"
-    macaddress = "44:a8:42:bc:43:99"
+    macaddress = "44:A8:42:BC:43:99"
   }
   "cluster-controlplane-2" = {
     address    = "10.10.0.32"
-    macaddress = "44:a8:42:40:01:91"
+    macaddress = "44:A8:42:40:01:91"
   }
   "cluster-controlplane-3" = {
     address    = "10.10.0.33"
-    macaddress = "44:a8:42:97:48:e9"
+    macaddress = "44:A8:42:97:48:E9"
   }
   "cluster-worker-1" = {
     address    = "10.10.0.41"
-    macaddress = "44:a8:42:f3:96:fd"
+    macaddress = "44:A8:42:F3:96:FD"
   }
   "cluster-worker-2" = {
     address    = "10.10.0.42"
-    macaddress = "44:a8:42:e2:02:65"
+    macaddress = "44:A8:42:E2:02:65"
   }
   "cluster-worker-3" = {
     address    = "10.10.0.43"
-    macaddress = "44:a8:42:a4:01:e3"
+    macaddress = "44:A8:42:A4:01:E3"
   }
   "cluster-worker-4" = {
     address    = "10.10.0.44"
-    macaddress = "44:a8:42:ac:63:5e"
+    macaddress = "44:A8:42:AC:63:5E"
   }
   "cluster-worker-5" = {
     address    = "10.10.0.45"
-    macaddress = "44:a8:42:7c:b9:cb"
+    macaddress = "44:A8:42:7C:B9:CB"
   }
 }
