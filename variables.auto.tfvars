@@ -100,8 +100,12 @@ leases = {
     address    = "10.10.0.45"
     macaddress = "44:A8:42:7C:B9:CB"
   }
-  "archlinux" = {
+  "arch" = {
     address    = "10.10.10.0"
-    macaddress = "00:50:56:A3:3A:65"
+    macaddress = "44:A8:42:B7:B0:22"
+  }
+  "flatcar" = {
+    address    = "10.10.10.1"
+    macaddress = "44:A8:42:5E:0C:B4"
   }
 }
