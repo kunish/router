@@ -112,4 +112,8 @@ leases = {
     address    = "10.10.10.2"
     macaddress = "44:A8:42:BC:79:E6"
   }
+  "v2ray" = {
+    address    = "10.10.10.3"
+    macaddress = "44:A8:42:AC:7E:60"
+  }
 }
