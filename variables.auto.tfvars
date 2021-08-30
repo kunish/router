@@ -20,7 +20,7 @@ leases = {
     address    = "10.10.0.5"
     macaddress = "DC:A6:32:80:48:92"
   }
-  "openwrt" = {
+  "pi4" = {
     address    = "10.10.0.6"
     macaddress = "DC:A6:32:80:4B:AA"
   }
@@ -59,6 +59,18 @@ leases = {
   "speedtest" = {
     address    = "10.10.0.16"
     macaddress = "44:A8:42:7A:DE:FD"
+  }
+  "pve" = {
+    address    = "10.10.0.17"
+    macaddress = "00:E0:67:1E:47:7E"
+  }
+  "v2ray" = {
+    address    = "10.10.0.18"
+    macaddress = "44:A8:42:13:68:5A"
+  }
+  "openwrt" = {
+    address    = "10.10.0.19"
+    macaddress = "44:A8:42:EE:B9:CA"
   }
   "jarvy-workstation" = {
     address    = "10.10.0.20"
