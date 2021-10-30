@@ -44,7 +44,7 @@ leases = {
     address    = "10.10.0.11"
     macaddress = "44:A8:42:25:B0:66"
   }
-  "gateway" = {
+  "powerdns" = {
     address    = "10.10.0.13"
     macaddress = "44:A8:42:E2:7D:31"
   }
