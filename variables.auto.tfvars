@@ -112,6 +112,22 @@ leases = {
     address    = "10.10.0.45"
     macaddress = "44:A8:42:7C:B9:CB"
   }
+  "cluster-controlplane-staging" = {
+    address    = "10.10.0.50"
+    macaddress = "44:A8:42:15:9B:7C"
+  }
+  "cluster-worker-1-staging" = {
+    address    = "10.10.0.51"
+    macaddress = "44:A8:42:80:81:E4"
+  }
+  "cluster-worker-2-staging" = {
+    address    = "10.10.0.52"
+    macaddress = "44:A8:42:EB:4A:A2"
+  }
+  "cluster-worker-3-staging" = {
+    address    = "10.10.0.53"
+    macaddress = "44:A8:42:06:3B:DC"
+  }
   "arch" = {
     address    = "10.10.10.0"
     macaddress = "44:A8:42:B7:B0:22"
