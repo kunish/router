@@ -124,4 +124,8 @@ leases = {
     address    = "10.10.10.2"
     macaddress = "44:A8:42:BC:79:E6"
   }
+  "alpine" = {
+    address    = "10.10.10.3"
+    macaddress = "00:50:56:A3:7B:AB"
+  }
 }
