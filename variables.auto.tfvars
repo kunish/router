@@ -144,4 +144,8 @@ leases = {
     address    = "10.10.10.3"
     macaddress = "00:50:56:A3:7B:AB"
   }
+  "gitlab-runner" = {
+    address    = "10.10.10.4"
+    macaddress = "44:A8:42:44:B2:0C"
+  }
 }
