@@ -48,10 +48,6 @@ leases = {
     address    = "10.10.0.13"
     macaddress = "44:A8:42:E2:7D:31"
   }
-  "workstation" = {
-    address    = "10.10.0.14"
-    macaddress = "44:A8:42:3E:D7:5B"
-  }
   "vcenter" = {
     address    = "10.10.0.15"
     macaddress = "00:0C:29:DB:E6:8D"
