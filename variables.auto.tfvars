@@ -4,10 +4,6 @@ dhcp_pool_range_start = "10.10.0.100"
 dhcp_pool_range_end   = "10.10.10.255"
 
 leases = {
-  "nuc" = {
-    address    = "10.10.0.2"
-    macaddress = "1C:69:7A:63:FA:FC"
-  }
   "pi1" = {
     address    = "10.10.0.3"
     macaddress = "DC:A6:32:62:DB:37"
@@ -59,10 +55,6 @@ leases = {
   "pve" = {
     address    = "10.10.0.17"
     macaddress = "00:E0:67:1E:47:7E"
-  }
-  "v2ray" = {
-    address    = "10.10.0.18"
-    macaddress = "44:A8:42:13:68:5A"
   }
   "openwrt" = {
     address    = "10.10.0.19"
@@ -127,14 +119,6 @@ leases = {
   "arch" = {
     address    = "10.10.10.0"
     macaddress = "44:A8:42:B7:B0:22"
-  }
-  "flatcar" = {
-    address    = "10.10.10.1"
-    macaddress = "44:A8:42:5E:0C:B4"
-  }
-  "clash" = {
-    address    = "10.10.10.2"
-    macaddress = "44:A8:42:BC:79:E6"
   }
   "alpine" = {
     address    = "10.10.10.3"
