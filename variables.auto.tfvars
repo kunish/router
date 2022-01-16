@@ -64,56 +64,20 @@ leases = {
     address    = "10.10.0.20"
     macaddress = "44:A8:42:53:6A:CA"
   }
-  "cluster-proxy" = {
+  "cluster-controlplane" = {
     address    = "10.10.0.30"
-    macaddress = "44:A8:42:7C:04:A1"
-  }
-  "cluster-controlplane-1" = {
-    address    = "10.10.0.31"
-    macaddress = "44:A8:42:BC:43:99"
-  }
-  "cluster-controlplane-2" = {
-    address    = "10.10.0.32"
-    macaddress = "44:A8:42:40:01:91"
-  }
-  "cluster-controlplane-3" = {
-    address    = "10.10.0.33"
-    macaddress = "44:A8:42:97:48:E9"
-  }
-  "cluster-worker-1" = {
-    address    = "10.10.0.41"
-    macaddress = "44:A8:42:F3:96:FD"
-  }
-  "cluster-worker-2" = {
-    address    = "10.10.0.42"
-    macaddress = "44:A8:42:E2:02:65"
-  }
-  "cluster-worker-3" = {
-    address    = "10.10.0.43"
-    macaddress = "44:A8:42:A4:01:E3"
-  }
-  "cluster-worker-4" = {
-    address    = "10.10.0.44"
-    macaddress = "44:A8:42:AC:63:5E"
-  }
-  "cluster-worker-5" = {
-    address    = "10.10.0.45"
-    macaddress = "44:A8:42:7C:B9:CB"
-  }
-  "cluster-controlplane-staging" = {
-    address    = "10.10.0.50"
     macaddress = "44:A8:42:15:9B:7C"
   }
-  "cluster-worker-1-staging" = {
-    address    = "10.10.0.51"
+  "cluster-worker-1" = {
+    address    = "10.10.0.31"
     macaddress = "44:A8:42:80:81:E4"
   }
-  "cluster-worker-2-staging" = {
-    address    = "10.10.0.52"
+  "cluster-worker-2" = {
+    address    = "10.10.0.32"
     macaddress = "44:A8:42:EB:4A:A2"
   }
-  "cluster-worker-3-staging" = {
-    address    = "10.10.0.53"
+  "cluster-worker-3" = {
+    address    = "10.10.0.33"
     macaddress = "44:A8:42:06:3B:DC"
   }
   "arch" = {
