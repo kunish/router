@@ -52,8 +52,24 @@ leases = {
     address    = "10.10.0.19"
     macaddress = "44:A8:42:EE:B9:CA"
   }
-  "alpine" = {
-    address    = "10.10.10.3"
-    macaddress = "00:50:56:A3:7B:AB"
+  "gitlab" = {
+    address    = "10.10.10.4"
+    macaddress = "AE:39:55:4B:61:B7"
+  }
+  "master" = {
+    address    = "10.10.10.10"
+    macaddress = "AE:39:55:D3:54:54"
+  }
+  "node-01" = {
+    address    = "10.10.10.20"
+    macaddress = "AE:39:55:13:C0:AD"
+  }
+  "node-02" = {
+    address    = "10.10.10.21"
+    macaddress = "AE:39:55:77:0B:2B"
+  }
+  "node-03" = {
+    address    = "10.10.10.22"
+    macaddress = "AE:39:55:D0:5A:E8"
   }
 }
