@@ -60,6 +60,10 @@ leases = {
     address    = "10.10.10.5"
     macaddress = "AE:39:55:72:5A:CF"
   }
+  "minio" = {
+    address    = "10.10.10.6"
+    macaddress = "AE:39:55:F3:CE:DF"
+  }
   "master" = {
     address    = "10.10.10.10"
     macaddress = "AE:39:55:D3:54:54"
