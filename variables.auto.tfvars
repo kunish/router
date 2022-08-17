@@ -40,6 +40,10 @@ leases = {
     address    = "10.10.0.11"
     macaddress = "44:A8:42:25:B0:66"
   }
+  "vcenter" = {
+    address    = "10.10.0.12"
+    macaddress = "00:0C:29:B6:10:A5"
+  }
   "powerdns" = {
     address    = "10.10.0.13"
     macaddress = "44:A8:42:E2:7D:31"
